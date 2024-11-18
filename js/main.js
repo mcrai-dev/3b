@@ -82,13 +82,13 @@ Version:	1.1
 			loop:true,
 			autoplay:true,
 			smartSpeed: 500,
-			autoplayTimeout:3500,
+			autoplayTimeout:5000,
 			singleItem: true,
 			autoplayHoverPause:true,
 			items:1,
 			nav:true,
 			navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-			dots:false,
+			dots:true,
 		});
 
 		/*===============================
@@ -300,24 +300,6 @@ Version:	1.1
 		  verticalOffset: 0
 		});
 
-		/*====================
-			Google Maps JS
-		======================*/
-		var map = new GMaps({
-				el: '#map',
-				lat: 23.011245,
-				lng: 90.884780,
-				scrollwheel: false,
-			});
-			map.addMarker({
-				lat: 23.011245,
-				lng: 90.884780,
-				title: 'Marker with InfoWindow',
-				infoWindow: {
-				content: '<p>welcome to Medipro</p>'
-			}
-		
-		});
 	});
 	
 	/*====================
