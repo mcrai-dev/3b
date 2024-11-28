@@ -4292,3 +4292,29 @@ body{
         height: 30px;
     }
 }
+
+/* Réduire les marges et paddings des sections */
+.section {
+    margin-top: 20px; /* Ajustez selon vos besoins */
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Éliminer les marges inutiles des titres */
+h1, h2, h3, p {
+    margin-top: 10px; /* Réduit l'espacement entre le texte et les autres éléments */
+    margin-bottom: 10px;
+}
+
+/* Ajustement des listes */
+ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 15px; /* Garder un espacement lisible */
+}
+
+/* Ajustement des breadcrumbs */
+.breadcrumbs {
+    margin-bottom: 20px; /* Réduit l'espacement avec la section suivante */
+}
